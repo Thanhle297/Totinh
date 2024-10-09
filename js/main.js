@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // process bar
     setTimeout(function() {
         firstQuestion();
         $('.spinner').fadeOut();
@@ -33,7 +32,6 @@ function firstQuestion(){
       })
 }
 
- // switch button position
  function switchButton() {
     var audio = new Audio('sound/duck.mp3');
     audio.play();
